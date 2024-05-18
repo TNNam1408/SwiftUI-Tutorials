@@ -13,6 +13,7 @@
 		CCBEE8202BF89D98008851C4 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE81F2BF89D98008851C4 /* LandmarkRow.swift */; };
 		CCBEE8222BF89F63008851C4 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE8212BF89F63008851C4 /* LandmarkList.swift */; };
 		CCBEE8252BF8A242008851C4 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE8242BF8A242008851C4 /* LandmarkDetail.swift */; };
+		CCBEE8272BF8EB6B008851C4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE8262BF8EB6B008851C4 /* FavoriteButton.swift */; };
 		CCC091D62BF217BF0062A42E /* landmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC091D52BF217BF0062A42E /* landmarksApp.swift */; };
 		CCC091D82BF217BF0062A42E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC091D72BF217BF0062A42E /* ContentView.swift */; };
 		CCC091DA2BF217C10062A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC091D92BF217C10062A42E /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		CCBEE81F2BF89D98008851C4 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		CCBEE8212BF89F63008851C4 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		CCBEE8242BF8A242008851C4 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		CCBEE8262BF8EB6B008851C4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		CCC091D22BF217BF0062A42E /* landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC091D52BF217BF0062A42E /* landmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarksApp.swift; sourceTree = "<group>"; };
 		CCC091D72BF217BF0062A42E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,12 +53,9 @@
 		CCBEE81C2BF880CA008851C4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CCC091E32BF21FDC0062A42E /* CicrleImage.swift */,
+				CCBEE8292BF8EBAC008851C4 /* Helper */,
+				CCBEE8282BF8EBA3008851C4 /* Landmarks */,
 				CCC091D72BF217BF0062A42E /* ContentView.swift */,
-				CCC091E52BF2218F0062A42E /* MapView.swift */,
-				CCBEE81F2BF89D98008851C4 /* LandmarkRow.swift */,
-				CCBEE8212BF89F63008851C4 /* LandmarkList.swift */,
-				CCBEE8242BF8A242008851C4 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +75,26 @@
 				CCBEE8162BF87956008851C4 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCBEE8282BF8EBA3008851C4 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBEE81F2BF89D98008851C4 /* LandmarkRow.swift */,
+				CCBEE8212BF89F63008851C4 /* LandmarkList.swift */,
+				CCBEE8242BF8A242008851C4 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		CCBEE8292BF8EBAC008851C4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CCC091E52BF2218F0062A42E /* MapView.swift */,
+				CCBEE8262BF8EB6B008851C4 /* FavoriteButton.swift */,
+				CCC091E32BF21FDC0062A42E /* CicrleImage.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		CCC091C92BF217BF0062A42E = {
@@ -189,6 +208,7 @@
 				CCC091D82BF217BF0062A42E /* ContentView.swift in Sources */,
 				CCC091E62BF2218F0062A42E /* MapView.swift in Sources */,
 				CCC091D62BF217BF0062A42E /* landmarksApp.swift in Sources */,
+				CCBEE8272BF8EB6B008851C4 /* FavoriteButton.swift in Sources */,
 				CCBEE8222BF89F63008851C4 /* LandmarkList.swift in Sources */,
 				CCBEE8252BF8A242008851C4 /* LandmarkDetail.swift in Sources */,
 				CCC091E42BF21FDC0062A42E /* CicrleImage.swift in Sources */,
